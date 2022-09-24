@@ -18,6 +18,7 @@ pipeline {
 	        junit 'target/surfire-reports/*.xml'
 		jacaco-execPattern: 'target/jacaco.exec'
 	     }	
-	  }   
+      	  }
+     }		  
     }
 }
