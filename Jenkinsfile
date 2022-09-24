@@ -11,7 +11,7 @@ pipeline {
 
       stage ('unit test -junit and jacaco') {
           steps {
-	      sh "mav test"
+	      sh "mvn test"
 	  }
 	  post {
 	     always {
